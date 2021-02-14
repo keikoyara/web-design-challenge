@@ -59,80 +59,99 @@
 
   <div style="background-color:teal;">
     <div class='row'>
-        <div class="col-md-4">
-        </div>
-        <div class="col-md-4">
-            </br>
-            </br>
-        </div>
-        <div class="col-md-4">
-        </div>
+      <div class="col-md-12">
+        <br>
+      </div>
     </div>
   </div>
-
-  <div class="Col_container">
-    <div class="row">
-
-     <div class="col-md-8">
-       <main class="container1">
-         <header>
-           
-            <h1>Summary</h1>
-         </header>
-          <section id= "introduction">
-            <figure id = "main_figure">
-              <img id="mainfig" src="./Resources/Fig1.png" alt="Latitude_Max-Temperature" style="width:400px;height:275px;float:left">
-            </figure>
-          <p> copy copy copy </p>
-          <p> more copy about the website</p>
-          </section>
-       </main>
-     </div>
-     
-     <div class="col-md-4" ></div>
-      <main class="container2">
-        <header>
-          <h2>Visualizations</h2>
-        </header>
-      <div class="row">
-        <div class ="col-xs-3 col-md-6">
-          <figure id ="main1_figure">
-            <!-- lat vs. max temp -->
-            <a href="lat_v_max.html"> 
-              <img src="./Resources/Fig1.png" alt="Latitude_Max-Temperature" style="width:150px;height:150px;"> 
-            </a>
-          </figure>
-        </div>
-
-        <div class ="col-xs-3 col-md-6">
-          <figure id ="main1_figure">
-            <!-- lat vs. humidity -->
-            <a href="lat_v_humidity.html"> 
-              <img src="./Resources/Fig2.png" alt="Latitude_Humidity" style="width:150px;height:150px;"> 
-            </a>
-          </figure>
-        </div>
-
-        <div class ="col-xs-3 col-md-6">
-          <figure id ="main1_figure">
-            <!-- lat vs. cloudiness -->
-            <a href="lat_v_cloudiness.html"> 
-              <img src="./Resources/Fig3.png" alt="Latitude_Cloudiness" style="width:150px;height:150px;"> 
-            </a>
-          </figure>
-        </div>
-
-        <div class ="col-xs-3 col-md-6">
-          <figure id ="main1_figure">
-            <!-- lat vs. windspeed -->
-            <a href="lat_v_windspeed.html"> 
-              <img src="./Resources/Fig4.png" alt="Latitude_Wind-Speed" style="width:150px;height:150px;"> 
-            </a>
-          </figure>
-        </div>
-
+    
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class = "col-md-4"></div>
+      <div class = "col-md-4">
+        <h1 class ="intro">Summary</h1>
       </div>
-      </main>
+      <div class = "col-md-4"> <br> </div>
+    </div> 
+
+    <div class="row">
+      <div class="col-md-12">
+          </br> 
+          </br>
+      </div>
+    </div>
+
+    <div class="row align-items-center">
+      <!-- summary paragraph -->
+      <div class="col-lg-6">
+          <p>The goal of this project was to analyze how weather changes as you get closer to the equator.
+            We pulled data from the OpenWeatherMap API to assemble and analyze data on over 500 cities.
+          </br>
+          </br>
+          After examining the data, we used Matplotlib to plot various charts to visualize the correlation between weather and latitude.
+          Factor we looked at include: temperature, humidity, cloudiness and wind speed. 
+          This site provides the visualizations created as part of the analysis. 
+          </br>
+          </p>
+          
+      </div>
+      
+  </div>
+</div>     
+  
+     
+  <div id = "bottom_visual" class="container"> 
+    <div class="row">
+      <div class="col-md-12">
+        </br> 
+    </div>
+      </div>
+      <hr> 
+
+    <div class="row align-items-center">
+      <div class = 'col-md-4'></br></br></br></div>
+      <div class="col-lg-4">
+        <h3 id="bot_header">Visualizations</h3>
+      </div>
+      <div class = 'col-md-4'></br></br></br></div>
+    </div>
+
+    <div class="row align-items-center">
+      <div class="col-lg-3">
+        <a href="lat_v_max.html">
+          <img class="mx-auto d-block img-fluid" src="./Resources/Fig1.png"
+          alt = "Latitude vs. Maximum Temperature" height="225" width="300">
+        </a>
+      </div>
+      <div class="col-lg-3">
+        <a href="lat_v_humidity.html">
+          <img class="mx-auto d-block img-fluid" src="./Resources/Fig2.png"
+          alt = "Latitude vs. Humidity" height="225" width="300">
+        </a>
+      </div>
+      <div class="col-lg-3">
+        <a href="lat_v_cloudiness.html">
+          <img class="mx-auto d-block img-fluid" src="./Resources/Fig3.png"
+          alt = "Latitude vs. Cloudiness" height="225" width="300">
+        </a>
+      </div>
+      <div class="col-lg-3">
+        <a href="lat_v_windspeed.html">
+          <img class="mx-auto d-block img-fluid" src="./Resources/Fig4.png"
+          alt = "Latitude vs. Windspeed" height="225" width="300">
+          </a>
+      </div>
+    </div>
+  
+      <hr>
+  </div>
+
+
+
+
+
+     
+     
      
   </div>
     
